@@ -28,35 +28,35 @@ fi
 if [[ ! -v DATE_PUBLISHED ]]
 then
     echo "Error: variable DATE_PUBLISHED not set"
-    echo "This file may only be sourced after required variables are set"
+    echo "This file may be sourced only after required variables are set"
     return 1
 fi
 
 if [[ ! -v BOOK_NUM ]]
 then
     echo "Error: variable BOOK_NUM not set"
-    echo "This file may only be sourced after required variables are set"
+    echo "This file may be sourced only after required variables are set"
     return 1
 fi
 
 if [[ ! -v BOOK_TITLE ]]
 then
     echo "Error: variable BOOK_TITLE not set"
-    echo "This file may only be sourced after required variables are set"
+    echo "This file may be sourced only after required variables are set"
     return 1
 fi
 
 if [[ ! -v CHAPTERS ]]
 then
     echo "Error: variable CHAPTERS not set"
-    echo "This file may only be sourced after required variables are set"
+    echo "This file may be sourced only after required variables are set"
     return 1
 fi
 
 if [[ ! -v URLS_DL ]]
 then
     echo "Error: variable URLS_DL not set"
-    echo "This file may only be sourced after required variables are set"
+    echo "This file may be sourced only after required variables are set"
     return 1
 fi
 
