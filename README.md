@@ -1,7 +1,7 @@
 # dl-hp-ab
 Download Harry Potter audiobooks
 
-# Description
+## Description
 
 These bash scripts will download and organize Harry Potter audiobooks from [0].
 
@@ -11,7 +11,7 @@ The scripts could be changed to download from alternative sources such as [1] or
 
 ## Dependencies
 
-* `youtube-dl`
+* `youtube-dl` or `yt-dlp`
 * `eyeD3` (optional to fix ID3 metadata)
 
 ## Usage

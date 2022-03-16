@@ -9,44 +9,54 @@ function program_exists
     command -v "${@}" > /dev/null
 }
 
-if ! program_exists youtube-dl
+DOWNLOAD_PROGRAM=''
+
+if program_exists youtube-dl
 then
-    echo "Error: program youtube-dl not found"
+    DOWNLOAD_PROGRAM='youtube-dl'
+elif program_exists yt-dlp
+then
+    DOWNLOAD_PROGRAM='yt-dlp'
+fi
+
+if [[ -z "$DOWNLOAD_PROGRAM" ]]
+then
+    echo "Error: No download programs (i.e. youtube-dl, yt-dlp) found"
     return 1
 fi
 
 if [[ ! -v DATE_PUBLISHED ]]
 then
     echo "Error: variable DATE_PUBLISHED not set"
-    echo "This file may be sourced after required variables are set"
+    echo "This file may only be sourced after required variables are set"
     return 1
 fi
 
 if [[ ! -v BOOK_NUM ]]
 then
     echo "Error: variable BOOK_NUM not set"
-    echo "This file may be sourced after required variables are set"
+    echo "This file may only be sourced after required variables are set"
     return 1
 fi
 
 if [[ ! -v BOOK_TITLE ]]
 then
     echo "Error: variable BOOK_TITLE not set"
-    echo "This file may be sourced after required variables are set"
+    echo "This file may only be sourced after required variables are set"
     return 1
 fi
 
 if [[ ! -v CHAPTERS ]]
 then
     echo "Error: variable CHAPTERS not set"
-    echo "This file may be sourced after required variables are set"
+    echo "This file may only be sourced after required variables are set"
     return 1
 fi
 
 if [[ ! -v URLS_DL ]]
 then
     echo "Error: variable URLS_DL not set"
-    echo "This file may be sourced after required variables are set"
+    echo "This file may only be sourced after required variables are set"
     return 1
 fi
 
@@ -56,7 +66,7 @@ cd "HP$BOOK_NUM - $BOOK_TITLE" || return
 for I in "${!URLS_DL[@]}"
 do
     URL="${URLS_DL[$I]}"
-    youtube-dl -o "$I.%(playlist_index)s.%(ext)s" "$URL" || return
+    $DOWNLOAD_PROGRAM -o "$I.%(playlist_index)s.%(ext)s" "$URL" || return
     sleep 10s
 done
 
