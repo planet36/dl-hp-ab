@@ -36,6 +36,3 @@ URLS_DL=(
 'https://stephenkingaudiobooks.com/stephen-fry-audiobook-harry-potter-and-the-chamber-of-secrets/4/'
 'https://stephenkingaudiobooks.com/stephen-fry-audiobook-harry-potter-and-the-chamber-of-secrets/5/'
 )
-
-# shellcheck disable=SC1091
-source source.bash

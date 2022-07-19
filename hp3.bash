@@ -41,6 +41,3 @@ URLS_DL=(
 'https://stephenkingaudiobooks.com/book-harry-potter-stephen-fry-prisoner-of-azkaban/5/'
 'https://stephenkingaudiobooks.com/book-harry-potter-stephen-fry-prisoner-of-azkaban/6/'
 )
-
-# shellcheck disable=SC1091
-source source.bash

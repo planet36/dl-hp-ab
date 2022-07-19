@@ -17,7 +17,8 @@ The scripts could be changed to download from alternative sources such as [1] or
 ## Usage
 
 ```
-bash hp*.bash
+bash download.bash hp1.bash
+bash massage.bash hp1.bash
 ```
 
 0. https://stephenkingaudiobooks.com/tag/harry-potter/

@@ -59,6 +59,3 @@ URLS_DL=(
 'https://stephenkingaudiobooks.com/stephen-fry-harry-deathly-hallows-audiobook-harry-potter/8/'
 'https://stephenkingaudiobooks.com/stephen-fry-harry-deathly-hallows-audiobook-harry-potter/9/'
 )
-
-# shellcheck disable=SC1091
-source source.bash

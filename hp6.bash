@@ -51,6 +51,3 @@ URLS_DL=(
 'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-prince/7/'
 'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-prince/8/'
 )
-
-# shellcheck disable=SC1091
-source source.bash

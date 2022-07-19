@@ -34,6 +34,3 @@ URLS_DL=(
 'https://stephenkingaudiobooks.com/audio-book-harry-potter-stephen-fry-philosophers-stone/3/'
 'https://stephenkingaudiobooks.com/audio-book-harry-potter-stephen-fry-philosophers-stone/4/'
 )
-
-# shellcheck disable=SC1091
-source source.bash
