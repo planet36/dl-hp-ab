@@ -7,6 +7,7 @@ function program_exists
     command -v "${@}" > /dev/null
 }
 
+# shellcheck disable=SC1090
 source "$1" || exit
 
 if [[ ! -v DATE_PUBLISHED ]]
