@@ -61,8 +61,9 @@ then
     exit 1
 fi
 
-mkdir "HP$BOOK_NUM - $BOOK_TITLE" || exit
-cd "HP$BOOK_NUM - $BOOK_TITLE" || exit
+FOLDER_NAME="HP$BOOK_NUM - $BOOK_TITLE"
+mkdir "$FOLDER_NAME" || exit
+cd "$FOLDER_NAME" || exit
 
 for I in "${!URLS_DL[@]}"
 do

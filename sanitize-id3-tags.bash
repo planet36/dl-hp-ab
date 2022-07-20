@@ -38,7 +38,9 @@ then
     exit 1
 fi
 
-cd "HP$BOOK_NUM - $BOOK_TITLE" || exit
+FOLDER_NAME="HP$BOOK_NUM - $BOOK_TITLE"
+mkdir "$FOLDER_NAME" || exit
+cd "$FOLDER_NAME" || exit
 
 if ! program_exists eyeD3
 then
