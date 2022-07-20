@@ -69,7 +69,13 @@ declare -a EYED3_OPTS=(
 
 for I in "${!CHAPTERS[@]}"
 do
-    printf -v CHAPTER '%02d' $((I+1))
-    INFILE="$CHAPTER. ${CHAPTERS[$I]}.mp3"
-    eyeD3 "${EYED3_OPTS[@]}" --track "$CHAPTER" --title "${CHAPTERS[$I]}" "$INFILE" || exit
+    printf -v CHAPTER_NUM '%02d' $((I+1))
+    CHAPTER_NAME="${CHAPTERS[$I]}"
+    INFILE="$CHAPTER_NAME.mp3"
+    if [[ "$CHAPTER_NAME" != 'Epilogue-'* ]]
+    then
+        # Prepend chapter number
+        INFILE="$CHAPTER_NUM- $INFILE"
+    fi
+    eyeD3 "${EYED3_OPTS[@]}" --track "$CHAPTER_NUM" --title "$CHAPTER_NAME" "$INFILE" || exit
 done
