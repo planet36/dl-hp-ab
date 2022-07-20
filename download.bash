@@ -61,7 +61,7 @@ then
     exit 1
 fi
 
-FOLDER_NAME="HP$BOOK_NUM - $BOOK_TITLE"
+FOLDER_NAME="Book $BOOK_NUM - $BOOK_TITLE"
 mkdir "$FOLDER_NAME" || exit
 cd "$FOLDER_NAME" || exit
 
@@ -82,14 +82,15 @@ fi
 
 for I in "${!MP3_FILES[@]}"
 do
-    printf -v CHAPTER_NUM '%02d' $((I+1))
+    CHAPTER_NUM=$((I+1))
+    printf -v CHAPTER_NUM_PADDED '%02d' $CHAPTER_NUM
     CHAPTER_NAME="${CHAPTERS[$I]}"
     INFILE="${MP3_FILES[$I]}"
     OUTFILE="$CHAPTER_NAME.mp3"
     if [[ "$CHAPTER_NAME" != 'Epilogue-'* ]]
     then
         # Prepend chapter number
-        OUTFILE="$CHAPTER_NUM- $OUTFILE"
+        OUTFILE="Chapter $CHAPTER_NUM_PADDED - $OUTFILE"
     fi
     mv --verbose -- "$INFILE" "$OUTFILE" || exit
 done

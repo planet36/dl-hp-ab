@@ -38,7 +38,7 @@ then
     exit 1
 fi
 
-FOLDER_NAME="HP$BOOK_NUM - $BOOK_TITLE"
+FOLDER_NAME="Book $BOOK_NUM - $BOOK_TITLE"
 mkdir "$FOLDER_NAME" || exit
 cd "$FOLDER_NAME" || exit
 
@@ -72,13 +72,14 @@ declare -a EYED3_OPTS=(
 
 for I in "${!CHAPTERS[@]}"
 do
-    printf -v CHAPTER_NUM '%02d' $((I+1))
+    CHAPTER_NUM=$((I+1))
+    printf -v CHAPTER_NUM_PADDED '%02d' $CHAPTER_NUM
     CHAPTER_NAME="${CHAPTERS[$I]}"
     INFILE="$CHAPTER_NAME.mp3"
     if [[ "$CHAPTER_NAME" != 'Epilogue-'* ]]
     then
         # Prepend chapter number
-        INFILE="$CHAPTER_NUM- $INFILE"
+        INFILE="Chapter $CHAPTER_NUM_PADDED - $INFILE"
     fi
     eyeD3 "${EYED3_OPTS[@]}" --track "$CHAPTER_NUM" --title "$CHAPTER_NAME" "$INFILE" || exit
 done
