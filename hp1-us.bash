@@ -7,7 +7,7 @@
 # https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Philosopher%27s_Stone
 DATE_PUBLISHED=1997-06-27
 BOOK_NUM=1
-BOOK_TITLE="Harry Potter and the Philosopher's Stone"
+BOOK_TITLE="Harry Potter and the Sorcerer's Stone"
 CHAPTERS=(
 "Chapter 01- The Boy Who Lived"
 "Chapter 02- The Vanishing Glass"
