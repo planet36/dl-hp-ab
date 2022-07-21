@@ -5,7 +5,7 @@
 # shellcheck disable=SC2034
 
 # https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Chamber_of_Secrets
-DATE_PUBLISHED=1998-07-02
+DATE_PUBLISHED=1999-06-02
 BOOK_NUM=2
 BOOK_TITLE="Harry Potter and the Chamber of Secrets"
 CHAPTERS=(
