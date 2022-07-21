@@ -46,9 +46,11 @@ then
     exit 1
 fi
 
+printf -v BOOK_DIR 'Book %d - %s' "$BOOK_NUM" "$BOOK_TITLE"
+printf '%s/\n' "$BOOK_DIR"
 for I in "${!CHAPTERS[@]}"
 do
     CHAPTER_NAME="${CHAPTERS[$I]}"
-	printf 'Book %d - %s/%s.mp3\n' "$BOOK_NUM" "$BOOK_TITLE" "$CHAPTER_NAME"
+	printf '%s/%s.mp3\n' "$BOOK_DIR" "$CHAPTER_NAME"
 done
 
