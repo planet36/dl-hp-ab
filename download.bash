@@ -82,15 +82,8 @@ fi
 
 for I in "${!MP3_FILES[@]}"
 do
-    CHAPTER_NUM=$((I+1))
-    printf -v CHAPTER_NUM_PADDED '%02d' $CHAPTER_NUM
     CHAPTER_NAME="${CHAPTERS[$I]}"
     INFILE="${MP3_FILES[$I]}"
     OUTFILE="$CHAPTER_NAME.mp3"
-    if [[ "$CHAPTER_NAME" != 'Epilogue-'* ]]
-    then
-        # Prepend chapter number
-        OUTFILE="Chapter $CHAPTER_NUM_PADDED - $OUTFILE"
-    fi
     mv --verbose -- "$INFILE" "$OUTFILE" || exit
 done
