@@ -3,20 +3,20 @@
 
 # Examples:
 :<<EOT
-bash print-output-file-names.bash hp1-uk.bash >> test/file-names-uk.txt
-bash print-output-file-names.bash hp2-uk.bash >> test/file-names-uk.txt
-bash print-output-file-names.bash hp3-uk.bash >> test/file-names-uk.txt
-bash print-output-file-names.bash hp4-uk.bash >> test/file-names-uk.txt
-bash print-output-file-names.bash hp5-uk.bash >> test/file-names-uk.txt
-bash print-output-file-names.bash hp6-uk.bash >> test/file-names-uk.txt
-bash print-output-file-names.bash hp7-uk.bash >> test/file-names-uk.txt
-bash print-output-file-names.bash hp1-us.bash >> test/file-names-us.txt
-bash print-output-file-names.bash hp2-us.bash >> test/file-names-us.txt
-bash print-output-file-names.bash hp3-us.bash >> test/file-names-us.txt
-bash print-output-file-names.bash hp4-us.bash >> test/file-names-us.txt
-bash print-output-file-names.bash hp5-us.bash >> test/file-names-us.txt
-bash print-output-file-names.bash hp6-us.bash >> test/file-names-us.txt
-bash print-output-file-names.bash hp7-us.bash >> test/file-names-us.txt
+bash print-output-file-names.bash hp1-uk.bash >> tpb-file-utils/file-names-uk.txt
+bash print-output-file-names.bash hp2-uk.bash >> tpb-file-utils/file-names-uk.txt
+bash print-output-file-names.bash hp3-uk.bash >> tpb-file-utils/file-names-uk.txt
+bash print-output-file-names.bash hp4-uk.bash >> tpb-file-utils/file-names-uk.txt
+bash print-output-file-names.bash hp5-uk.bash >> tpb-file-utils/file-names-uk.txt
+bash print-output-file-names.bash hp6-uk.bash >> tpb-file-utils/file-names-uk.txt
+bash print-output-file-names.bash hp7-uk.bash >> tpb-file-utils/file-names-uk.txt
+bash print-output-file-names.bash hp1-us.bash >> tpb-file-utils/file-names-us.txt
+bash print-output-file-names.bash hp2-us.bash >> tpb-file-utils/file-names-us.txt
+bash print-output-file-names.bash hp3-us.bash >> tpb-file-utils/file-names-us.txt
+bash print-output-file-names.bash hp4-us.bash >> tpb-file-utils/file-names-us.txt
+bash print-output-file-names.bash hp5-us.bash >> tpb-file-utils/file-names-us.txt
+bash print-output-file-names.bash hp6-us.bash >> tpb-file-utils/file-names-us.txt
+bash print-output-file-names.bash hp7-us.bash >> tpb-file-utils/file-names-us.txt
 EOT
 
 # shellcheck disable=SC1090
