@@ -49,6 +49,6 @@ fi
 for I in "${!CHAPTERS[@]}"
 do
     CHAPTER_NAME="${CHAPTERS[$I]}"
-	printf 'Book %02d - %s/%s.mp3\n' "$BOOK_NUM" "$BOOK_TITLE" "$CHAPTER_NAME"
+	printf 'Book %d - %s/%s.mp3\n' "$BOOK_NUM" "$BOOK_TITLE" "$CHAPTER_NAME"
 done
 
