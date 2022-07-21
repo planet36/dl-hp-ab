@@ -35,7 +35,6 @@ then
 fi
 
 FOLDER_NAME="Book $BOOK_NUM - $BOOK_TITLE"
-mkdir "$FOLDER_NAME" || exit
 cd "$FOLDER_NAME" || exit
 
 if ! program_exists eyeD3
