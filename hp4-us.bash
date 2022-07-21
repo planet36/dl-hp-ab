@@ -48,7 +48,7 @@ CHAPTERS=(
 "Chapter 37- The Beginning"
 )
 AUTHOR='J.K. Rowling'
-READER='Stephen Fry'
+READER='Jim Dale'
 
 URLS_DL=(
 'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-goblet-fire/'

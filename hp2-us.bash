@@ -29,7 +29,7 @@ CHAPTERS=(
 "Chapter 18- Dobby's Reward"
 )
 AUTHOR='J.K. Rowling'
-READER='Stephen Fry'
+READER='Jim Dale'
 
 URLS_DL=(
 'https://stephenkingaudiobooks.com/stephen-fry-audiobook-harry-potter-and-the-chamber-of-secrets/'

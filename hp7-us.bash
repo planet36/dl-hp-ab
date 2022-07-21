@@ -48,7 +48,7 @@ CHAPTERS=(
 "Epilogue"
 )
 AUTHOR='J.K. Rowling'
-READER='Stephen Fry'
+READER='Jim Dale'
 
 URLS_DL=(
 'https://stephenkingaudiobooks.com/stephen-fry-harry-deathly-hallows-audiobook-harry-potter/'

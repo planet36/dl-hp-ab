@@ -28,7 +28,7 @@ CHAPTERS=(
 "Chapter 17- The Man with Two Faces"
 )
 AUTHOR='J.K. Rowling'
-READER='Stephen Fry'
+READER='Jim Dale'
 
 URLS_DL=(
 'https://stephenkingaudiobooks.com/audio-book-harry-potter-stephen-fry-philosophers-stone/'

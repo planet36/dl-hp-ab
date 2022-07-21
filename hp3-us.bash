@@ -33,7 +33,7 @@ CHAPTERS=(
 "Chapter 22- Owl Post Again"
 )
 AUTHOR='J.K. Rowling'
-READER='Stephen Fry'
+READER='Jim Dale'
 
 URLS_DL=(
 'https://stephenkingaudiobooks.com/book-harry-potter-stephen-fry-prisoner-of-azkaban/'
