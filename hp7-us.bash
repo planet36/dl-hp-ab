@@ -14,14 +14,14 @@ CHAPTERS=(
 "Chapter 03- The Dursleys Departing"
 "Chapter 04- The Seven Potters"
 "Chapter 05- Fallen Warrior"
-"Chapter 06- The Ghoul in Pyjamas"
+"Chapter 06- The Ghoul in Pajamas"
 "Chapter 07- The Will of Albus Dumbledore"
 "Chapter 08- The Wedding"
 "Chapter 09- A Place to Hide"
 "Chapter 10- Kreacher's Tale"
 "Chapter 11- The Bribe"
-"Chapter 12- Magic is Might"
-"Chapter 13- The Muggle-Born Registration Commission"
+"Chapter 12- Magic Is Might"
+"Chapter 13- The Muggle-born Registration Commission"
 "Chapter 14- The Thief"
 "Chapter 15- The Goblin's Revenge"
 "Chapter 16- Godric's Hollow"
@@ -45,7 +45,7 @@ CHAPTERS=(
 "Chapter 34- The Forest Again"
 "Chapter 35- King's Cross"
 "Chapter 36- The Flaw in the Plan"
-"Epilogue- Nineteen Years Later"
+"Epilogue"
 )
 AUTHOR='J.K. Rowling'
 READER='Stephen Fry'
