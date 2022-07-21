@@ -17,7 +17,7 @@ The scripts could be changed to download from alternative sources such as [1] or
 ## Usage
 
 ```
-bash download.bash hp1-uk.bash
+bash download-book.bash hp1-uk.bash
 bash sanitize-id3-tags.bash hp1-uk.bash
 ```
 
