@@ -22,42 +22,42 @@ fi
 
 if [[ -z "$DOWNLOAD_PROGRAM" ]]
 then
-    echo "Error: No download programs (i.e. youtube-dl, yt-dlp) found"
+    printf 'Error: No download programs (i.e. youtube-dl, yt-dlp) found\n' 1>&2
     exit 1
 fi
 
 if [[ ! -v DATE_PUBLISHED ]]
 then
-    echo "Error: variable DATE_PUBLISHED not set"
-    echo "This file may be sourced only after required variables are set"
+    printf 'Error: variable DATE_PUBLISHED not set\n' 1>&2
+    printf 'This file may be sourced only after required variables are set\n' 1>&2
     exit 1
 fi
 
 if [[ ! -v BOOK_NUM ]]
 then
-    echo "Error: variable BOOK_NUM not set"
-    echo "This file may be sourced only after required variables are set"
+    printf 'Error: variable BOOK_NUM not set\n' 1>&2
+    printf 'This file may be sourced only after required variables are set\n' 1>&2
     exit 1
 fi
 
 if [[ ! -v BOOK_TITLE ]]
 then
-    echo "Error: variable BOOK_TITLE not set"
-    echo "This file may be sourced only after required variables are set"
+    printf 'Error: variable BOOK_TITLE not set\n' 1>&2
+    printf 'This file may be sourced only after required variables are set\n' 1>&2
     exit 1
 fi
 
 if [[ ! -v CHAPTERS ]]
 then
-    echo "Error: variable CHAPTERS not set"
-    echo "This file may be sourced only after required variables are set"
+    printf 'Error: variable CHAPTERS not set\n' 1>&2
+    printf 'This file may be sourced only after required variables are set\n' 1>&2
     exit 1
 fi
 
 if [[ ! -v URLS_DL ]]
 then
-    echo "Error: variable URLS_DL not set"
-    echo "This file may be sourced only after required variables are set"
+    printf 'Error: variable URLS_DL not set\n' 1>&2
+    printf 'This file may be sourced only after required variables are set\n' 1>&2
     exit 1
 fi
 
@@ -76,7 +76,7 @@ mapfile -t MP3_FILES < <(ls -v -- *.mp3)
 
 if (( ${#MP3_FILES[@]} != ${#CHAPTERS[@]} ))
 then
-    echo "Error: number of mp3 files downloaded (${#MP3_FILES[@]}) != number of chapters (${#CHAPTERS[@]})"
+    printf 'Error: number of mp3 files downloaded (%d) != number of chapters (%d)\n' "${#MP3_FILES[@]}" "${#CHAPTERS[@]}" 1>&2
     exit 1
 fi
 
