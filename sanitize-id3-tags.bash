@@ -60,7 +60,6 @@ declare -a EYED3_OPTS=(
 --artist "Stephen Fry"
 --album-artist "Stephen Fry"
 --composer "J.K. Rowling"
---orig-artist "J.K. Rowling"
 --genre Audiobook
 --disc-total 7
 --release-year "${DATE_PUBLISHED/-*}"
