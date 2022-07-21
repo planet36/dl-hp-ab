@@ -48,6 +48,8 @@ CHAPTERS=(
 "Chapter 37- The Lost Prophecy"
 "Chapter 38- The Second War Begins"
 )
+AUTHOR='J.K. Rowling'
+READER='Stephen Fry'
 
 URLS_DL=(
 'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-phoenix-audio/'

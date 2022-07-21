@@ -47,6 +47,8 @@ CHAPTERS=(
 "Chapter 36- The Parting of the Ways"
 "Chapter 37- The Beginning"
 )
+AUTHOR='J.K. Rowling'
+READER='Stephen Fry'
 
 URLS_DL=(
 'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-goblet-fire/'

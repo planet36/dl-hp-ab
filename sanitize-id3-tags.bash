@@ -57,9 +57,9 @@ declare -a EYED3_OPTS=(
 --encoding utf8
 --v2
 --preserve-file-times
---artist "Stephen Fry"
---album-artist "Stephen Fry"
---composer "J.K. Rowling"
+--artist "$READER"
+--album-artist "$READER"
+--composer "$AUTHOR"
 --genre Audiobook
 --disc-total 7
 --release-year "${DATE_PUBLISHED/-*}"

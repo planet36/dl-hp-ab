@@ -32,6 +32,8 @@ CHAPTERS=(
 "Chapter 21- Hermione's Secret"
 "Chapter 22- Owl Post Again"
 )
+AUTHOR='J.K. Rowling'
+READER='Stephen Fry'
 
 URLS_DL=(
 'https://stephenkingaudiobooks.com/book-harry-potter-stephen-fry-prisoner-of-azkaban/'

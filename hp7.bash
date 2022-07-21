@@ -47,6 +47,8 @@ CHAPTERS=(
 "Chapter 36- The Flaw in the Plan"
 "Epilogue- Nineteen Years Later"
 )
+AUTHOR='J.K. Rowling'
+READER='Stephen Fry'
 
 URLS_DL=(
 'https://stephenkingaudiobooks.com/stephen-fry-harry-deathly-hallows-audiobook-harry-potter/'

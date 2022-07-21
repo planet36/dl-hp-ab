@@ -40,6 +40,8 @@ CHAPTERS=(
 "Chapter 29- The Phoenix Lament"
 "Chapter 30- The White Tomb"
 )
+AUTHOR='J.K. Rowling'
+READER='Stephen Fry'
 
 URLS_DL=(
 'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-prince/'

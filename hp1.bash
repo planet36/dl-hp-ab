@@ -27,6 +27,8 @@ CHAPTERS=(
 "Chapter 16- Through the Trapdoor"
 "Chapter 17- The Man with Two Faces"
 )
+AUTHOR='J.K. Rowling'
+READER='Stephen Fry'
 
 URLS_DL=(
 'https://stephenkingaudiobooks.com/audio-book-harry-potter-stephen-fry-philosophers-stone/'
