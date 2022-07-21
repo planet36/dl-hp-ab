@@ -13,7 +13,7 @@ CHAPTERS=(
 "Chapter 02- The Scar"
 "Chapter 03- The Invitation"
 "Chapter 04- Back to The Burrow"
-"Chapter 05- Weasley's Wizard Wheezes"
+"Chapter 05- Weasleys' Wizard Wheezes"
 "Chapter 06- The Portkey"
 "Chapter 07- Bagman and Crouch"
 "Chapter 08- The Quidditch World Cup"

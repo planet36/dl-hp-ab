@@ -15,7 +15,7 @@ CHAPTERS=(
 "Chapter 04- At Flourish and Blotts"
 "Chapter 05- The Whomping Willow"
 "Chapter 06- Gilderoy Lockhart"
-"Chapter 07- Mudbloods And Murmurs"
+"Chapter 07- Mudbloods and Murmurs"
 "Chapter 08- The Deathday Party"
 "Chapter 09- The Writing on the Wall"
 "Chapter 10- The Rogue Bludger"

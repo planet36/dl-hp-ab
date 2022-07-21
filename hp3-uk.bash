@@ -28,7 +28,7 @@ CHAPTERS=(
 "Chapter 17- Cat, Rat and Dog"
 "Chapter 18- Moony, Wormtail, Padfoot and Prongs"
 "Chapter 19- The Servant of Lord Voldemort"
-"Chapter 20- The Dementor's Kiss"
+"Chapter 20- The Dementors' Kiss"
 "Chapter 21- Hermione's Secret"
 "Chapter 22- Owl Post Again"
 )
