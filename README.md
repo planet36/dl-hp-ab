@@ -17,8 +17,8 @@ The scripts could be changed to download from alternative sources such as [1] or
 ## Usage
 
 ```
-bash download.bash hp1.bash
-bash sanitize-id3-tags.bash hp1.bash
+bash download.bash hp1-uk.bash
+bash sanitize-id3-tags.bash hp1-uk.bash
 ```
 
 0. https://stephenkingaudiobooks.com/tag/harry-potter/
