@@ -13,28 +13,24 @@ source "$1" || exit
 if [[ ! -v DATE_PUBLISHED ]]
 then
     printf 'Error: variable DATE_PUBLISHED not set\n' 1>&2
-    printf 'This file may be sourced only after required variables are set\n' 1>&2
     exit 1
 fi
 
 if [[ ! -v BOOK_NUM ]]
 then
     printf 'Error: variable BOOK_NUM not set\n' 1>&2
-    printf 'This file may be sourced only after required variables are set\n' 1>&2
     exit 1
 fi
 
 if [[ ! -v BOOK_TITLE ]]
 then
     printf 'Error: variable BOOK_TITLE not set\n' 1>&2
-    printf 'This file may be sourced only after required variables are set\n' 1>&2
     exit 1
 fi
 
 if [[ ! -v CHAPTERS ]]
 then
     printf 'Error: variable CHAPTERS not set\n' 1>&2
-    printf 'This file may be sourced only after required variables are set\n' 1>&2
     exit 1
 fi
 

@@ -22,42 +22,37 @@ fi
 
 if [[ -z "$DOWNLOAD_PROGRAM" ]]
 then
-    printf 'Error: No download programs (i.e. youtube-dl, yt-dlp) found\n' 1>&2
+    printf 'Error: no download programs (i.e. youtube-dl, yt-dlp) found\n' 1>&2
     exit 1
 fi
 
 if [[ ! -v DATE_PUBLISHED ]]
 then
-    printf 'Error: variable DATE_PUBLISHED not set\n' 1>&2
-    printf 'This file may be sourced only after required variables are set\n' 1>&2
+    printf 'Error: required variable DATE_PUBLISHED not set\n' 1>&2
     exit 1
 fi
 
 if [[ ! -v BOOK_NUM ]]
 then
-    printf 'Error: variable BOOK_NUM not set\n' 1>&2
-    printf 'This file may be sourced only after required variables are set\n' 1>&2
+    printf 'Error: required variable BOOK_NUM not set\n' 1>&2
     exit 1
 fi
 
 if [[ ! -v BOOK_TITLE ]]
 then
-    printf 'Error: variable BOOK_TITLE not set\n' 1>&2
-    printf 'This file may be sourced only after required variables are set\n' 1>&2
+    printf 'Error: required variable BOOK_TITLE not set\n' 1>&2
     exit 1
 fi
 
 if [[ ! -v CHAPTERS ]]
 then
-    printf 'Error: variable CHAPTERS not set\n' 1>&2
-    printf 'This file may be sourced only after required variables are set\n' 1>&2
+    printf 'Error: required variable CHAPTERS not set\n' 1>&2
     exit 1
 fi
 
 if [[ ! -v URLS_DL ]]
 then
-    printf 'Error: variable URLS_DL not set\n' 1>&2
-    printf 'This file may be sourced only after required variables are set\n' 1>&2
+    printf 'Error: required variable URLS_DL not set\n' 1>&2
     exit 1
 fi
 
