@@ -60,10 +60,17 @@ FOLDER_NAME="Book $BOOK_NUM - $BOOK_TITLE"
 mkdir "$FOLDER_NAME" || exit
 cd "$FOLDER_NAME" || exit
 
+FIRST_ITER=true
+
 for I in "${!URLS_DL[@]}"
 do
-    printf 'Sleeping for 10s...\n'
-    sleep 10s
+    if $FIRST_ITER
+    then
+        FIRST_ITER=false
+    else
+        printf 'Sleeping for 10s...\n'
+        sleep 10s
+    fi
     URL="${URLS_DL[$I]}"
     $DOWNLOAD_PROGRAM -o "$I.%(playlist_index)s.%(ext)s" "$URL" || exit
 done
