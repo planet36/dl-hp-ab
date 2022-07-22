@@ -64,6 +64,7 @@ for I in "${!URLS_DL[@]}"
 do
     URL="${URLS_DL[$I]}"
     $DOWNLOAD_PROGRAM -o "$I.%(playlist_index)s.%(ext)s" "$URL" || exit
+    printf 'Sleeping for 10s...\n'
     sleep 10s
 done
 
