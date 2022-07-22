@@ -19,8 +19,21 @@ Note that in all the sources where Stephen Fry narrates, Chapter 7 in Book 5 is 
 ## Usage
 
 ```
-bash download-book.bash hp1-uk.bash
-bash sanitize-id3-tags.bash hp1-uk.bash
+bash download-book.bash hp1-uk.bash && bash sanitize-id3-tags.bash hp1-uk.bash
+bash download-book.bash hp2-uk.bash && bash sanitize-id3-tags.bash hp2-uk.bash
+bash download-book.bash hp3-uk.bash && bash sanitize-id3-tags.bash hp3-uk.bash
+bash download-book.bash hp4-uk.bash && bash sanitize-id3-tags.bash hp4-uk.bash
+bash download-book.bash hp5-uk.bash && bash sanitize-id3-tags.bash hp5-uk.bash
+bash download-book.bash hp6-uk.bash && bash sanitize-id3-tags.bash hp6-uk.bash
+bash download-book.bash hp7-uk.bash && bash sanitize-id3-tags.bash hp7-uk.bash
+
+bash download-book.bash hp1-us.bash && bash sanitize-id3-tags.bash hp1-us.bash
+bash download-book.bash hp2-us.bash && bash sanitize-id3-tags.bash hp2-us.bash
+bash download-book.bash hp3-us.bash && bash sanitize-id3-tags.bash hp3-us.bash
+bash download-book.bash hp4-us.bash && bash sanitize-id3-tags.bash hp4-us.bash
+bash download-book.bash hp5-us.bash && bash sanitize-id3-tags.bash hp5-us.bash
+bash download-book.bash hp6-us.bash && bash sanitize-id3-tags.bash hp6-us.bash
+bash download-book.bash hp7-us.bash && bash sanitize-id3-tags.bash hp7-us.bash
 ```
 
 0. https://potdio.com/category/stephen-fry/
