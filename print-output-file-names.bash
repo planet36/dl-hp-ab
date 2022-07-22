@@ -51,6 +51,6 @@ printf '%s/\n' "$FOLDER_NAME"
 for I in "${!CHAPTERS[@]}"
 do
     CHAPTER_NAME="${CHAPTERS[$I]}"
-	printf '%s/%s.mp3\n' "$FOLDER_NAME" "$CHAPTER_NAME"
+    printf '%s/%s.mp3\n' "$FOLDER_NAME" "$CHAPTER_NAME"
 done
 
