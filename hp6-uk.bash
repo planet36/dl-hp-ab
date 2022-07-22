@@ -44,12 +44,8 @@ AUTHOR='J.K. Rowling'
 READER='Stephen Fry'
 
 URLS_DL=(
-'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-prince/'
-'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-prince/2/'
-'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-prince/3/'
-'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-prince/4/'
-'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-prince/5/'
-'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-prince/6/'
-'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-prince/7/'
-'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-prince/8/'
+'https://potdio.com/harry-potter-and-the-half-blood-prince-audiobook/'
+'https://potdio.com/harry-potter-and-the-half-blood-prince-audiobook/2/'
+'https://potdio.com/harry-potter-and-the-half-blood-prince-audiobook/3/'
+'https://potdio.com/harry-potter-and-the-half-blood-prince-audiobook/4/'
 )

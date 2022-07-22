@@ -36,10 +36,5 @@ AUTHOR='J.K. Rowling'
 READER='Stephen Fry'
 
 URLS_DL=(
-'https://stephenkingaudiobooks.com/book-harry-potter-stephen-fry-prisoner-of-azkaban/'
-'https://stephenkingaudiobooks.com/book-harry-potter-stephen-fry-prisoner-of-azkaban/2/'
-'https://stephenkingaudiobooks.com/book-harry-potter-stephen-fry-prisoner-of-azkaban/3/'
-'https://stephenkingaudiobooks.com/book-harry-potter-stephen-fry-prisoner-of-azkaban/4/'
-'https://stephenkingaudiobooks.com/book-harry-potter-stephen-fry-prisoner-of-azkaban/5/'
-'https://stephenkingaudiobooks.com/book-harry-potter-stephen-fry-prisoner-of-azkaban/6/'
+'https://potdio.com/harry-potter-and-the-prisoner-of-azkaban/'
 )

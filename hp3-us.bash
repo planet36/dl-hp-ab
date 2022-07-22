@@ -36,10 +36,5 @@ AUTHOR='J.K. Rowling'
 READER='Jim Dale'
 
 URLS_DL=(
-'https://stephenkingaudiobooks.com/book-harry-potter-stephen-fry-prisoner-of-azkaban/'
-'https://stephenkingaudiobooks.com/book-harry-potter-stephen-fry-prisoner-of-azkaban/2/'
-'https://stephenkingaudiobooks.com/book-harry-potter-stephen-fry-prisoner-of-azkaban/3/'
-'https://stephenkingaudiobooks.com/book-harry-potter-stephen-fry-prisoner-of-azkaban/4/'
-'https://stephenkingaudiobooks.com/book-harry-potter-stephen-fry-prisoner-of-azkaban/5/'
-'https://stephenkingaudiobooks.com/book-harry-potter-stephen-fry-prisoner-of-azkaban/6/'
+'https://potdio.com/jim-dale-prisoner-of-azkaban-audiobook/'
 )

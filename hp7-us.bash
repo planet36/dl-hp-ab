@@ -51,13 +51,9 @@ AUTHOR='J.K. Rowling'
 READER='Jim Dale'
 
 URLS_DL=(
-'https://stephenkingaudiobooks.com/stephen-fry-harry-deathly-hallows-audiobook-harry-potter/'
-'https://stephenkingaudiobooks.com/stephen-fry-harry-deathly-hallows-audiobook-harry-potter/2/'
-'https://stephenkingaudiobooks.com/stephen-fry-harry-deathly-hallows-audiobook-harry-potter/3/'
-'https://stephenkingaudiobooks.com/stephen-fry-harry-deathly-hallows-audiobook-harry-potter/4/'
-'https://stephenkingaudiobooks.com/stephen-fry-harry-deathly-hallows-audiobook-harry-potter/5/'
-'https://stephenkingaudiobooks.com/stephen-fry-harry-deathly-hallows-audiobook-harry-potter/6/'
-'https://stephenkingaudiobooks.com/stephen-fry-harry-deathly-hallows-audiobook-harry-potter/7/'
-'https://stephenkingaudiobooks.com/stephen-fry-harry-deathly-hallows-audiobook-harry-potter/8/'
-'https://stephenkingaudiobooks.com/stephen-fry-harry-deathly-hallows-audiobook-harry-potter/9/'
+'https://potdio.com/jim-dale-deathly-hallows-audiobook/'
+'https://potdio.com/jim-dale-deathly-hallows-audiobook/2/'
+'https://potdio.com/jim-dale-deathly-hallows-audiobook/3/'
+'https://potdio.com/jim-dale-deathly-hallows-audiobook/4/'
+'https://potdio.com/jim-dale-deathly-hallows-audiobook/5/'
 )
