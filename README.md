@@ -7,7 +7,9 @@ These bash scripts will download and organize Harry Potter audiobooks from [0].
 
 If [eyeD3](https://eyed3.readthedocs.io/en/latest/) is installed, the ID3 metadata will be updated with correct audiobook information.
 
-The scripts could be changed to download from alternative sources such as [1] or [2], but this is left as an exercise for the reader.  Note that Chapter 7 in Book 5 is corrupt in all the sources.
+The scripts could be changed to download from alternative sources.
+
+Note that in all the sources where Stephen Fry narrates, Chapter 7 in Book 5 is corrupt.
 
 ## Dependencies
 
