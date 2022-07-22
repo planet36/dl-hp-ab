@@ -26,6 +26,8 @@ bash download-book.bash hp4-uk.bash && bash sanitize-id3-tags.bash hp4-uk.bash
 bash download-book.bash hp5-uk.bash && bash sanitize-id3-tags.bash hp5-uk.bash
 bash download-book.bash hp6-uk.bash && bash sanitize-id3-tags.bash hp6-uk.bash
 bash download-book.bash hp7-uk.bash && bash sanitize-id3-tags.bash hp7-uk.bash
+mkdir --verbose -- 'Harry Potter Audio Books 1-7; Read by Stephen Fry [MP3]/'
+mv --verbose -- 'Book '?' - Harry Potter and the '* 'Harry Potter Audio Books 1-7; Read by Stephen Fry [MP3]/'
 
 bash download-book.bash hp1-us.bash && bash sanitize-id3-tags.bash hp1-us.bash
 bash download-book.bash hp2-us.bash && bash sanitize-id3-tags.bash hp2-us.bash
@@ -34,6 +36,8 @@ bash download-book.bash hp4-us.bash && bash sanitize-id3-tags.bash hp4-us.bash
 bash download-book.bash hp5-us.bash && bash sanitize-id3-tags.bash hp5-us.bash
 bash download-book.bash hp6-us.bash && bash sanitize-id3-tags.bash hp6-us.bash
 bash download-book.bash hp7-us.bash && bash sanitize-id3-tags.bash hp7-us.bash
+mkdir --verbose -- 'Harry Potter Audio Books 1-7; Read by Jim Dale [MP3]/'
+mv --verbose -- 'Book '?' - Harry Potter and the '* 'Harry Potter Audio Books 1-7; Read by Jim Dale [MP3]/'
 ```
 
 0. https://potdio.com/category/stephen-fry/
