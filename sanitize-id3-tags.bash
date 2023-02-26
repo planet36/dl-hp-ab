@@ -10,6 +10,11 @@ function program_exists
 # shellcheck disable=SC1090
 source "$1" || exit
 
+if [[ -n "$2" ]]
+then
+    cd "$2" || exit
+fi
+
 if [[ ! -v DATE_PUBLISHED ]]
 then
     printf 'Error: variable DATE_PUBLISHED not set\n' 1>&2
