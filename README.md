@@ -50,3 +50,4 @@ mv --verbose -- 'Book '?' - Harry Potter and the '* 'Harry Potter Audio Books 1-
 0. https://hpaudiobooks.club/series/stephen/
 0. https://hpaudiobooks.club/series/jim-dale/
 0. https://stephenkingaudiobooks.com/tag/harry-potter/
+0. https://gobletaudio.com/goblet/
