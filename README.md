@@ -13,7 +13,7 @@ The following mistakes are known in the sources where Stephen Fry narrates:
 - Book 5, Chapter 7: Is most of the previous chapter
 - Book 5, Chapter 34: The first 8 minutes is repeated
 - Book 6, Chapter 13: The last 20 minutes is repeated
-- Book 7, Chapter 9: Is missing the last minute
+- ~~Book 7, Chapter 9: Is missing the last minute~~
 
 ## Dependencies
 
