@@ -44,6 +44,7 @@ mkdir --verbose -- 'Harry Potter Audio Books 1-7; Read by Jim Dale [MP3]/'
 mv --verbose -- 'Book '?' - Harry Potter and the '* 'Harry Potter Audio Books 1-7; Read by Jim Dale [MP3]/'
 ```
 
-0. https://stephenkingaudiobooks.com/tag/harry-potter/
-0. https://hpaudiobooks.club/
-0. https://potdio.com/category/j-k-rowling/
+0. https://stephenkingaudiobook.net/tag/harry-potter/
+0. https://hpaudiobooks.co/
+0. https://hpaudiobooks.co/series/stephen/
+0. https://gobletaudio.com/goblet1/
