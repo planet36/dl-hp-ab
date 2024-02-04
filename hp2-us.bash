@@ -32,5 +32,9 @@ AUTHOR='J.K. Rowling'
 READER='Jim Dale'
 
 URLS_DL=(
-'https://potdio.com/jim-dale-chamber-of-secrets-audiobook/'
+'https://stephenkingaudiobooks.com/stephen-fry-audiobook-harry-potter-and-the-chamber-of-secrets/'
+'https://stephenkingaudiobooks.com/stephen-fry-audiobook-harry-potter-and-the-chamber-of-secrets/2/'
+'https://stephenkingaudiobooks.com/stephen-fry-audiobook-harry-potter-and-the-chamber-of-secrets/3/'
+'https://stephenkingaudiobooks.com/stephen-fry-audiobook-harry-potter-and-the-chamber-of-secrets/4/'
+'https://stephenkingaudiobooks.com/stephen-fry-audiobook-harry-potter-and-the-chamber-of-secrets/5/'
 )

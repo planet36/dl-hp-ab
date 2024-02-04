@@ -31,5 +31,8 @@ AUTHOR='J.K. Rowling'
 READER='Jim Dale'
 
 URLS_DL=(
-'https://potdio.com/jim-dale-sorcerers-stone/'
+'https://stephenkingaudiobooks.com/audio-book-harry-potter-stephen-fry-philosophers-stone/'
+'https://stephenkingaudiobooks.com/audio-book-harry-potter-stephen-fry-philosophers-stone/2/'
+'https://stephenkingaudiobooks.com/audio-book-harry-potter-stephen-fry-philosophers-stone/3/'
+'https://stephenkingaudiobooks.com/audio-book-harry-potter-stephen-fry-philosophers-stone/4/'
 )

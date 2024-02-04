@@ -32,5 +32,9 @@ AUTHOR='J.K. Rowling'
 READER='Stephen Fry'
 
 URLS_DL=(
-'https://potdio.com/harry-potter-and-the-chamber-of-secrets/'
+'https://stephenkingaudiobooks.com/stephen-fry-audiobook-harry-potter-and-the-chamber-of-secrets/'
+'https://stephenkingaudiobooks.com/stephen-fry-audiobook-harry-potter-and-the-chamber-of-secrets/2/'
+'https://stephenkingaudiobooks.com/stephen-fry-audiobook-harry-potter-and-the-chamber-of-secrets/3/'
+'https://stephenkingaudiobooks.com/stephen-fry-audiobook-harry-potter-and-the-chamber-of-secrets/4/'
+'https://stephenkingaudiobooks.com/stephen-fry-audiobook-harry-potter-and-the-chamber-of-secrets/5/'
 )

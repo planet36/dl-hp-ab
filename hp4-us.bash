@@ -51,9 +51,13 @@ AUTHOR='J.K. Rowling'
 READER='Jim Dale'
 
 URLS_DL=(
-'https://potdio.com/jim-dalegoblet-of-fire-audiobook/'
-'https://potdio.com/jim-dalegoblet-of-fire-audiobook/2/'
-'https://potdio.com/jim-dalegoblet-of-fire-audiobook/3/'
-'https://potdio.com/jim-dalegoblet-of-fire-audiobook/4/'
-'https://potdio.com/jim-dalegoblet-of-fire-audiobook/5/'
+'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-goblet-fire/'
+'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-goblet-fire/2/'
+'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-goblet-fire/3/'
+'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-goblet-fire/4/'
+'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-goblet-fire/5/'
+'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-goblet-fire/6/'
+'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-goblet-fire/7/'
+'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-goblet-fire/8/'
+'https://stephenkingaudiobooks.com/harry-potter-stephen-fry-goblet-fire/9/'
 )

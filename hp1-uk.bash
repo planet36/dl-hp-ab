@@ -31,5 +31,8 @@ AUTHOR='J.K. Rowling'
 READER='Stephen Fry'
 
 URLS_DL=(
-'https://potdio.com/philosophers-stone-stephen-fry/'
+'https://stephenkingaudiobooks.com/audio-book-harry-potter-stephen-fry-philosophers-stone/'
+'https://stephenkingaudiobooks.com/audio-book-harry-potter-stephen-fry-philosophers-stone/2/'
+'https://stephenkingaudiobooks.com/audio-book-harry-potter-stephen-fry-philosophers-stone/3/'
+'https://stephenkingaudiobooks.com/audio-book-harry-potter-stephen-fry-philosophers-stone/4/'
 )

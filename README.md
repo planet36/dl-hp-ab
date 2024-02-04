@@ -3,7 +3,7 @@ Download Harry Potter audiobooks
 
 ## Description
 
-These bash scripts will download and organize Harry Potter audiobooks from either [0] or [1].
+These bash scripts will download and organize Harry Potter audiobooks from [0].
 
 If [eyeD3](https://eyed3.readthedocs.io/en/latest/) is installed, the ID3 metadata will be updated with correct audiobook information.
 
@@ -44,9 +44,6 @@ mkdir --verbose -- 'Harry Potter Audio Books 1-7; Read by Jim Dale [MP3]/'
 mv --verbose -- 'Book '?' - Harry Potter and the '* 'Harry Potter Audio Books 1-7; Read by Jim Dale [MP3]/'
 ```
 
-0. https://potdio.com/category/stephen-fry/
-0. https://potdio.com/category/jim-dale/
-0. https://potdio.com/category/j-k-rowling/
-0. https://hpaudiobooks.club/series/stephen/
-0. https://hpaudiobooks.club/series/jim-dale/
 0. https://stephenkingaudiobooks.com/tag/harry-potter/
+0. https://hpaudiobooks.club/
+0. https://potdio.com/category/j-k-rowling/
